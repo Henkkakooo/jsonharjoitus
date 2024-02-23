@@ -109,7 +109,7 @@ function fetchPala(obj) {
 
 // Työpaikat
 
-fetch("http://gis.vantaa.fi/rest/tyopaikat/v1/Tekninen%20ala")
+fetch("https://gis.vantaa.fi/rest/tyopaikat/v1/Tekninen%20ala")
 
 .then(function (response) {
     return response.json();
